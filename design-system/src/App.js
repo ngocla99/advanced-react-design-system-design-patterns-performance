@@ -1,6 +1,7 @@
 import { SubscribeForm } from "./components/1-layers-pattern";
 import HeroPage from "./components/10-cover-pattern";
 import { Modal } from "./components/11-modal";
+import { FinalProject } from "./components/12-final-project";
 import { InfoForm } from "./components/2-split-pattern";
 import InfoFormWithColumns from "./components/3-columns-pattern";
 import Cards from "./components/4-grid-pattern";
@@ -26,7 +27,8 @@ function App() {
       {/* <Profile /> */}
       {/* <NewProductsList /> */}
       {/* <HeroPage /> */}
-      <Modal />
+      {/* <Modal /> */}
+      <FinalProject />
       <GlobalStyles />
     </>
   );
